@@ -1,0 +1,1 @@
+web: gunicorn arcadebackend_django.wsgi
