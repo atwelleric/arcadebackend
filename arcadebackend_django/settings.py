@@ -38,10 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'arcadebackend',
     'rest_framework',
-    'users',
     'corsheaders',
+    'games',
+    'users',
     'creator',
 ]
 
