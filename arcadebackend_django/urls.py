@@ -29,6 +29,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(),
          name='token_refresh'),
     # read about api-auth
-    path('', include('arcadebackend.urls')),
-    path('', include('users.urls')),
+    path('api/games/', include('arcadebackend.urls')),
+    path('api/users/', include('users.urls')),
+    path('api/creators/', include('creator.urls')),
 ]
