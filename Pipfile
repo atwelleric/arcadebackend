@@ -16,6 +16,8 @@ djangorestframework = "*"
 django-rest-knox = "*"
 whitenoise = "*"
 django-cors-headers = "*"
+djangorestframework-jwt = "*"
+djangorestframework-simplejwt = "*"
 
 [requires]
 python_version = "3.8"

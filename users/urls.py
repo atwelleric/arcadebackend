@@ -1,8 +1,6 @@
 from django.urls import path
-from . import views
-from rest_framework.routers import DefaultRouter
+from .views import SignupView
 
 urlpatterns = [
-    path('users', views.UserList.as_view(), name='user_list'),
-    path('users/<int:pk>', views.UserDetail.as_view(), name='user_detail'),
+    path('signup', SignupView.as_view()),
 ]
