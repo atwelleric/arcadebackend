@@ -18,6 +18,7 @@ whitenoise = "*"
 django-cors-headers = "*"
 djangorestframework-jwt = "*"
 djangorestframework-simplejwt = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.8"
